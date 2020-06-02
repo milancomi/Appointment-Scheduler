@@ -1542,3 +1542,9 @@ section {
 #footer .credits a:hover {
   color: #009961;
 }
+
+
+#myVideo{
+    border-radius: 3.5em;
+
+}
