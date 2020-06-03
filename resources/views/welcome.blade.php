@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>szr STILL Bootstrap Template - Index</title>
+  <title>S-T-I-L-L</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -27,12 +27,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: szr STILL - v2.0.0
-  * Template URL: https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body>
@@ -43,13 +38,13 @@
 
       <div class="row justify-content-center">
         <div class="col-xl-9 d-flex align-items-center justify-content-between">
-          <h1 class="logo"><a href="index.html">szr STILL</a></h1>
+          <h1 class="logo"><a href="#hero">szr: STILL</a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+           <a href="#hero" class="logo logoSize"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
 
           <nav class="nav-menu d-none d-lg-block">
             <ul>
-              <li class="active"><a href="index.html">Home</a></li>
+              <li class="active"><a href="#hero">Home</a></li>
               <li><a href="#about">O Nama</a></li>
               <li><a href="#portfolio">Galerija</a></li>
               <li><a href="#pricing">Cene</a></li>
@@ -264,7 +259,6 @@
 
           <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
             <div class="box recommended">
-              <span class="recommended-badge">Recommended</span>
               <h3>Žensko šišanje</h3>
               <h4><sup>din</sup>600<span></span></h4>
               <ul>

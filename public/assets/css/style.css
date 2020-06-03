@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 @media (max-width: 992px) {
@@ -522,6 +522,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+    #header .logo img {
+        padding-right: 6em;
+        max-height: 40px;
+    }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -1548,3 +1552,5 @@ section {
     border-radius: 3.5em;
 
 }
+
+
