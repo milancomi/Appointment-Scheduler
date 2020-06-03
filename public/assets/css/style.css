@@ -259,6 +259,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 1366px) {
+    #header .logo img {
+        padding-right: 4em;
+        max-height: 40px;
+    }
   .nav-menu .drop-down .drop-down ul {
     left: -90%;
   }
@@ -323,8 +327,10 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
-  transition: ease-in-out 0.2s;
+  background: #b92b27;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
   border-radius: 10px;
@@ -516,6 +522,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 1024px) {
+
   #hero {
     background-attachment: fixed;
   }
